@@ -11,18 +11,32 @@
         }
         img{
             max-width: 100%;
-            max-height: 100%;
+         /*   max-height: 100%;*/
             vertical-align: top;
-            max-height: none;
+            /* max-height: none; */
+            /* display: none; */
+        }
+        #responsivee{
+            display: none;
+            
+        }
+        @media screen and (max-width: 768px){
+            #responsivee {
+                display: block;
+            }
+            img{
+                display: none;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>"grande soy"</h1>
+    <!-- <h1>"grande soy"</h1> -->
+    <img src="EstructurarBI.png" alt="" id="responsivee">
     <img src="Foto_No3_Te_Patino_1.jpeg" alt="">
     <img src="Imagen fncalculo_rutas.png" alt="">
     <img src="LIMPIEZA.png" alt="">
     <img src="DDS.png" alt="">
-    <img src="EstructurarBI.png" alt="">
+    
 </body>
 </html>
